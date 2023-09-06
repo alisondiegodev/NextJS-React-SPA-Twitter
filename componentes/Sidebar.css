@@ -1,0 +1,58 @@
+
+.sidebar{
+    padding: 1.5rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+    gap: 2rem;
+    }
+    
+    .content{
+    border-left: 1px solid #ebeef0;
+    border-right: 1px solid #ebeef0;
+    
+    }
+    
+    .sidebar .new-tweet {
+        background: var(--tweeter-blue);
+        border-radius: 99999px;
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        color: #FFF;
+        font-size: 1.25rem;
+        font-weight: 900;
+        border: 0;
+        letter-spacing: 1px;
+    }
+    
+    .sidebar .new-tweet:hover {
+        filter: brightness(1.1);
+    }
+    
+    .main-navigation {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 32px;
+    }
+    
+    
+    .main-navigation a svg {
+        width: 32px;
+        height: 32px;
+    }
+    .main-navigation a {
+        display: flex; 
+        align-items: center;
+        gap: 10px;
+        
+    }
+    .main-navigation a.active {
+        color: var(--tweeter-blue);
+    
+    }

@@ -1,0 +1,50 @@
+.tweet {
+    width: 100%;
+    border-bottom: 1px solid #ebeef0;
+    padding: 20px 12px;
+
+}
+
+.tweet-header {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 12px;
+}
+
+.tweet-header strong {
+    font-size: 16;
+    color: #3b3b3b;
+}
+.tweet-header p{
+    font-size: 13px;
+    color: #888;
+}
+
+.tweet-text {
+    margin-bottom: 14px;
+}
+
+.tweet-layout {
+    display: flex;
+    
+}
+
+.tweet-layout>img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.tweet-bottom {
+    display: flex;
+    gap: 20px;
+}
+
+.tweet-bottom button {
+    display: flex;
+    gap: 3px;
+}
