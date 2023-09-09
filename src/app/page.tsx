@@ -1,11 +1,11 @@
-"use client";
 import Content from "../../componentes/Content";
-import Sidebar from "../../componentes/Sidebar";
-
+import { SessionProvider } from "next-auth/react";
 export default function Home() {
   return (
     <div className="content">
-      <Content />
+      <SessionProvider>
+        <Content />
+      </SessionProvider>
     </div>
   );
 }

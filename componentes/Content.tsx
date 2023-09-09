@@ -1,7 +1,9 @@
+"use client";
 import "./Content.css";
 import { Sparkle } from "phosphor-react";
 import Tweet from "./Tweet";
 import { useState, FormEvent } from "react";
+import GithubUser from "./GithubUser";
 
 function Sidebar() {
   const [newTweet, setNewTweet] = useState("");
@@ -43,7 +45,6 @@ function Sidebar() {
       child: newTweet,
       userId: "@alisondiegodev",
     };
-    console.log(newTweetObj);
     setTweets([newTweetObj, ...tweets]);
     setNewTweet("");
   }
@@ -70,8 +71,7 @@ function Sidebar() {
         </label>
         <button onClick={createNewTweet}>Tweet</button>
       </form>
-      <div className="divisor"></div>
-
+      <div className="divisor"></div>\
       {tweets.map((item, index) => {
         return (
           <Tweet
