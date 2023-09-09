@@ -5,6 +5,7 @@ export default function Home() {
     <div className="content">
       <SessionProvider>
         <Content />
+        <h1>test</h1>
       </SessionProvider>
     </div>
   );
