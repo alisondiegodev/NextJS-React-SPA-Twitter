@@ -1,8 +1,7 @@
-import "./globals.css";
+import "../globals.css";
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
-import Sidebar from "../../componentes/Sidebar";
-
+import Sidebar from "../../../componentes/Sidebar";
 const roboto = Roboto({ subsets: ["latin"], weight: ["400", "900"] });
 
 export const metadata: Metadata = {
